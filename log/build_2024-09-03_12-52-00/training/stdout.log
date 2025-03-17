@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/training/training.egg-info
+writing ../../build/training/training.egg-info/PKG-INFO
+writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+writing entry points to ../../build/training/training.egg-info/entry_points.txt
+writing requirements to ../../build/training/training.egg-info/requires.txt
+writing top-level names to ../../build/training/training.egg-info/top_level.txt
+writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/doraemon/mobot_navi/build/training/build
+creating /home/doraemon/mobot_navi/build/training/build/lib
+creating /home/doraemon/mobot_navi/build/training/build/lib/training
+copying training/__init__.py -> /home/doraemon/mobot_navi/build/training/build/lib/training
+running install
+running install_lib
+creating /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training
+copying /home/doraemon/mobot_navi/build/training/build/lib/training/__init__.py -> /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training
+byte-compiling /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/doraemon/mobot_navi/install/training/share/ament_index
+creating /home/doraemon/mobot_navi/install/training/share/ament_index/resource_index
+creating /home/doraemon/mobot_navi/install/training/share/ament_index/resource_index/packages
+copying resource/training -> /home/doraemon/mobot_navi/install/training/share/ament_index/resource_index/packages
+copying package.xml -> /home/doraemon/mobot_navi/install/training/share/training
+running install_egg_info
+Copying ../../build/training/training.egg-info to /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/doraemon/mobot_navi/build/training/install.log'

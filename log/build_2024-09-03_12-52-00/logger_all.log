@@ -1,0 +1,130 @@
+[0.147s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.147s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a34cf8f30d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a34cf8f2bc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a34cf8f2bc0>>)[0m
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.439s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/doraemon/mobot_navi'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extension 'ignore'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extension 'ignore_ament_install'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extensions ['colcon_pkg']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extension 'colcon_pkg'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extensions ['colcon_meta']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extension 'colcon_meta'
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extensions ['ros']
+[0.447s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/training) by extension 'ros'
+[0.450s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/training' with type 'ros.ament_python' and name 'training'[0m
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.466s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.466s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.469s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/doraemon/mobot_scratch/install[0m
+[0.470s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/doraemon/deep-rl-navigation/DRL_robot_navigation_ros2/install[0m
+[0.470s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/doraemon/turtlenavi_ws/install[0m
+[0.470s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/doraemon/ros3_ws/install[0m
+[0.471s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 389 installed packages in /opt/ros/humble[0m
+[0.472s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_args' from command line to 'None'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_target' from command line to 'None'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'training' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'training' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doraemon/mobot_navi/build/training', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doraemon/mobot_navi/install/training', 'merge_install': False, 'path': '/home/doraemon/mobot_navi/src/training', 'symlink_install': False, 'test_result_base': None}[0m
+[0.507s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.508s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.508s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/doraemon/mobot_navi/src/training' with build type 'ament_python'
+[0.508s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('training', 'ament_prefix_path')
+[0.512s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/doraemon/mobot_navi/install/training/share/training/hook/ament_prefix_path.ps1'
+[0.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/doraemon/mobot_navi/install/training/share/training/hook/ament_prefix_path.dsv'
+[0.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/doraemon/mobot_navi/install/training/share/training/hook/ament_prefix_path.sh'
+[0.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.732s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/doraemon/mobot_navi/src/training'
+[0.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.732s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.148s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/doraemon/mobot_navi/src/training': PYTHONPATH=/home/doraemon/mobot_navi/build/training/prefix_override:/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/doraemon/mobot_navi/build/training/build install --record /home/doraemon/mobot_navi/build/training/install.log --single-version-externally-managed install_data[0m
+[1.382s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/doraemon/mobot_navi/src/training' returned '0': PYTHONPATH=/home/doraemon/mobot_navi/build/training/prefix_override:/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/doraemon/mobot_navi/build/training/build install --record /home/doraemon/mobot_navi/build/training/install.log --single-version-externally-managed install_data[0m
+[1.389s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training' for CMake module files
+[1.389s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training' for CMake config files
+[1.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training/lib'
+[1.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training/bin'
+[1.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training/lib/pkgconfig/training.pc'
+[1.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('training', 'pythonpath')
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/doraemon/mobot_navi/install/training/share/training/hook/pythonpath.ps1'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/doraemon/mobot_navi/install/training/share/training/hook/pythonpath.dsv'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/doraemon/mobot_navi/install/training/share/training/hook/pythonpath.sh'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/doraemon/mobot_navi/install/training/bin'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(training)
+[1.391s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/doraemon/mobot_navi/install/training/share/training/package.ps1'
+[1.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/doraemon/mobot_navi/install/training/share/training/package.dsv'
+[1.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/doraemon/mobot_navi/install/training/share/training/package.sh'
+[1.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/doraemon/mobot_navi/install/training/share/training/package.bash'
+[1.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/doraemon/mobot_navi/install/training/share/training/package.zsh'
+[1.399s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/doraemon/mobot_navi/install/training/share/colcon-core/packages/training)
+[1.399s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.400s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.400s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.400s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.410s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.410s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.410s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.446s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.447s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/doraemon/mobot_navi/install/local_setup.ps1'
+[1.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/doraemon/mobot_navi/install/_local_setup_util_ps1.py'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/doraemon/mobot_navi/install/setup.ps1'
+[1.454s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/doraemon/mobot_navi/install/local_setup.sh'
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/doraemon/mobot_navi/install/_local_setup_util_sh.py'
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/doraemon/mobot_navi/install/setup.sh'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/doraemon/mobot_navi/install/local_setup.bash'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/doraemon/mobot_navi/install/setup.bash'
+[1.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/doraemon/mobot_navi/install/local_setup.zsh'
+[1.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/doraemon/mobot_navi/install/setup.zsh'

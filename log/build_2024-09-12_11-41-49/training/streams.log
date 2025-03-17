@@ -1,0 +1,30 @@
+[0.820s] Invoking command in '/home/doraemon/mobot_navi/src/training': PYTHONPATH=/home/doraemon/mobot_navi/build/training/prefix_override:/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/doraemon/mobot_navi/build/training/build install --record /home/doraemon/mobot_navi/build/training/install.log --single-version-externally-managed install_data
+[1.024s] running egg_info
+[1.024s] writing ../../build/training/training.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../build/training/training.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../build/training/training.egg-info/requires.txt
+[1.036s] writing top-level names to ../../build/training/training.egg-info/top_level.txt
+[1.039s] reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.041s] copying training/env.py -> /home/doraemon/mobot_navi/build/training/build/lib/training
+[1.041s] copying training/td3.py -> /home/doraemon/mobot_navi/build/training/build/lib/training
+[1.041s] copying training/implement.py -> /home/doraemon/mobot_navi/build/training/build/lib/training
+[1.041s] running install
+[1.041s] running install_lib
+[1.042s] copying /home/doraemon/mobot_navi/build/training/build/lib/training/env.py -> /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training
+[1.042s] copying /home/doraemon/mobot_navi/build/training/build/lib/training/td3.py -> /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training
+[1.043s] copying /home/doraemon/mobot_navi/build/training/build/lib/training/implement.py -> /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training
+[1.043s] byte-compiling /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training/env.py to env.cpython-310.pyc
+[1.043s] byte-compiling /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training/td3.py to td3.cpython-310.pyc
+[1.043s] byte-compiling /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training/implement.py to implement.cpython-310.pyc
+[1.044s] running install_data
+[1.044s] copying package.xml -> /home/doraemon/mobot_navi/install/training/share/training
+[1.044s] running install_egg_info
+[1.045s] removing '/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info' (and everything under it)
+[1.045s] Copying ../../build/training/training.egg-info to /home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+[1.046s] running install_scripts
+[1.058s] writing list of installed files to '/home/doraemon/mobot_navi/build/training/install.log'
+[1.086s] Invoked command in '/home/doraemon/mobot_navi/src/training' returned '0': PYTHONPATH=/home/doraemon/mobot_navi/build/training/prefix_override:/home/doraemon/mobot_navi/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/doraemon/mobot_navi/build/training/build install --record /home/doraemon/mobot_navi/build/training/install.log --single-version-externally-managed install_data
